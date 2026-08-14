@@ -15,3 +15,30 @@
 
 ## 🗂️ Folder Structure
 
+month-01-js-basics/
+├── day-01-variables/
+├── day-02-operators/
+└── ... month-02-node-express/
+month-03-mongodb/
+month-04-react/ 
+month-05-react-advanced/
+month-06-capstone/ 
+dsa-practice/
+## 🛠️ Tech Stack
+
+- **Frontend:** React, HTML, CSS, JavaScript
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB, Mongoose
+- **Tools:** Git, GitHub, VS Code, Docker
+
+## 📊 Stats
+
+- **Started:** [Today's Date]
+- **Daily Commit Streak:** 0 days
+- **DSA Problems Solved:** 0
+- **Mini-Projects Completed:** 0
+
+## 📫 Connect
+
+- GitHub: [@buildwithdhanush](https://github.com/buildwithdhanush)
+- 
