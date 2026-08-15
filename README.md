@@ -37,6 +37,10 @@ dsa-practice/
 - **Daily Commit Streak:** 0 days
 - **DSA Problems Solved:** 0
 - **Mini-Projects Completed:** 0
+## 🏃 to Run Any Day's Code
+- **cd month1/week1/day1
+- **node index.js
+
 
 ## 📫 Connect
 
