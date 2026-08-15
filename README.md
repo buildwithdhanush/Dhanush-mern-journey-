@@ -29,12 +29,12 @@ dsa-practice/
 - **Frontend:** React, HTML, CSS, JavaScript
 - **Backend:** Node.js, Express.js
 - **Database:** MongoDB, Mongoose
-- **Tools:** Git, GitHub, VS Code, Docker
+- **Tools:** Git, GitHub, VSCodeium, Docker
 
 ## 📊 Stats
 
-- **Started:** [Today's Date]
-- **Daily Commit Streak:** 0 days
+- **Started:** [15-08-2026]
+- **Daily Commit Streak:*0 days
 - **DSA Problems Solved:** 0
 - **Mini-Projects Completed:** 0
 ## 🏃 to Run Any Day's Code
