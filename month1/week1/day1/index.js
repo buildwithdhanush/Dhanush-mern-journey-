@@ -1,16 +1,16 @@
 let name = "dhanush k";
 let age = 19;
-let isstudent  = true;
+let isstudent = true;
 let stringtype = "hello world ";
 let numbertype = 19;
 let booleantype = false;
 let nulltype = null;
 let undefinedtype;
-let objecttype = [
-    name = "dhanush",
-    role = "student",
-    stack = "MERN"
-];
+let objecttype = {
+    name : "dhanush",
+    role : "student",
+    stack : "MERN"
+};
 let arraytype =[
     "node js",
     "expressjs",
@@ -36,8 +36,8 @@ console.log("array type:",arraytype,typeof arraytype);
 console.log(arraytype[2])
 console.log("today is my day one of my learning")
 console.log("template type");
-console.log(`i am ${name},my role is:${role},my stack is${stack}`)
-console.log(`hi i am ${name} and i am ${age} years old  and i am a${role}  and i am learning ${stack} stack development`)
+console.log(`i am ${name},my role is:${objecttype.role},my stack is${objecttype.stack}`)
+console.log(`hi i am ${name} and i am ${age} years old  and i am a${objecttype.role}  and i am learning ${objecttype.stack} stack development`)
 
 
 
