@@ -34,7 +34,7 @@ dsa-practice/
 ## 📊 Stats
 
 - **Started:** [15-08-2026]
-- **Daily Commit Streak:*1 days
+- **Daily Commit Streak:*2 days
 - **DSA Problems Solved:** 1
 - **Mini-Projects Completed:** 0
 ## 🏃 to Run Any Day's Code

@@ -19,7 +19,14 @@ function calculateGrade(score) {
 }
 
 // Test cases
-console.log(calculateGrade(95)); // Output: "A"
-console.log(calculateGrade(72));
-console.log(calculateGrade("hello")) // Output: "C"
-console.log(calculateGrade(-5)) // Output: "C"
+// Test cases
+console.log(calculateGrade(95));    // "A"
+console.log(calculateGrade(85));    // "B"
+console.log(calculateGrade(72));    // "C"
+console.log(calculateGrade(65));    // "D"
+console.log(calculateGrade(45));    // "F"
+console.log(calculateGrade(100));   // "A" (edge case)
+console.log(calculateGrade(0));     // "F" (edge case)
+console.log(calculateGrade("hello")); // "Invalid"
+console.log(calculateGrade(-5));    // "Invalid"
+console.log(calculateGrade(105));   // "Invalid"
