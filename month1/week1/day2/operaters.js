@@ -23,27 +23,32 @@ console.log({ add, sub, mul, div, mod, pow });
 console.log("\n=== Assignment Operators ===");
 let x = 20;
 console.log("x = 20:", x);
-x += 6;  console.log("x += 6:", x);
-x -= 5;  console.log("x -= 5:", x);
-x *= 6;  console.log("x *= 6:", x);
-x /= 2;  console.log("x /= 2:", x);
-x %= add; console.log("x %= add:", x);
+x += 6;
+console.log("x += 6:", x);
+x -= 5;
+console.log("x -= 5:", x);
+x *= 6;
+console.log("x *= 6:", x);
+x /= 2;
+console.log("x /= 2:", x);
+x %= add;
+console.log("x %= add:", x);
 
 // --- Comparison ---
 console.log("\n=== Comparison Operators ===");
-console.log("5 == '5':", 5 == "5");    // true (loose)
-console.log("5 === '5':", 5 === "5");  // false (strict)
-console.log("5 > 6:", 5 > 6);          // false
-console.log("5 < 6:", 5 < 6);          // true
-console.log("5 <= 5:", 5 <= 5);        // true
+console.log("5 == '5':", 5 == "5"); // true (loose)
+console.log("5 === '5':", 5 === "5"); // false (strict)
+console.log("5 > 6:", 5 > 6); // false
+console.log("5 < 6:", 5 < 6); // true
+console.log("5 <= 5:", 5 <= 5); // true
 
 // --- Logical ---
 console.log("\n=== Logical Operators ===");
 const isAdult = true;
 const hasID = false;
-console.log("isAdult && hasID:", isAdult && hasID);   // false
-console.log("isAdult || hasID:", isAdult || hasID);   // true
-console.log("!isAdult:", !isAdult);                   // false
+console.log("isAdult && hasID:", isAdult && hasID); // false
+console.log("isAdult || hasID:", isAdult || hasID); // true
+console.log("!isAdult:", !isAdult); // false
 
 // --- Ternary ---
 console.log("\n=== Ternary Operator ===");
@@ -55,7 +60,7 @@ console.log(`Age ${age} is ${status}`);
 console.log("\n=== Nullish Coalescing ===");
 const userInput = null;
 const defaultValue = "guest";
-console.log("null ?? 'guest':", null ?? defaultValue);           // "guest"
-console.log("'' ?? 'guest':", "" ?? defaultValue);             // "" (empty string is NOT nullish)
-console.log("0 ?? 'guest':", 0 ?? defaultValue);               // 0 (0 is NOT nullish)
+console.log("null ?? 'guest':", null ?? defaultValue); // "guest"
+console.log("'' ?? 'guest':", "" ?? defaultValue); // "" (empty string is NOT nullish)
+console.log("0 ?? 'guest':", 0 ?? defaultValue); // 0 (0 is NOT nullish)
 console.log("undefined ?? 'guest':", undefined ?? defaultValue); // "guest"
